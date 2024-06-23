@@ -4,10 +4,10 @@ Todo List App with ASP.NET Core 6 and Angular 16
 This project is a simple todo list application built using ASP.NET Core 6 on the backend and Angular 16 on the frontend. It allows users to create, view, edit, and delete todo items.
 
 # Features
-Create new todo items: Users can add new tasks to their todo list with a title ,description and planned date.
-View existing todo items: The application displays a list of all currently saved todo items.
-Edit existing todo items: Users can modify the details of existing tasks.
-Delete todo items: Users can remove unwanted tasks from their todo list.
+- Create new todo items: Users can add new tasks to their todo list with a title ,description and planned date.
+- View existing todo items: The application displays a list of all currently saved todo items.
+- Edit existing todo items: Users can modify the details of existing tasks.
+- Delete todo items: Users can remove unwanted tasks from their todo list.
 
 # Prerequisites
 -Node.js and npm (or yarn): 
@@ -20,7 +20,7 @@ Clone this repository or download the source code.
 Open a terminal or command prompt and navigate to the project directory.
 Run npm install (or yarn install) to install the required dependencies for both the frontend and backend.
 
-Running the Application
+# Running the Application
 Start the backend:
 Running the Backend with Visual Studio
 
@@ -33,21 +33,21 @@ Select the Startup Project:
 In the Solution Explorer window (usually on the right side), right-click on the project folder named WebAPIServer and select "Set as Startup Project".
 Run the Application (Without Debugging):
 
-There are two ways to run the backend without debugging:
-Using the green "Run" button: Locate the green "Run" button (usually a play symbol) on the top toolbar and click it. This will build and run the backend application.
-Using the context menu: Right-click on the project name in the Solution Explorer and select "Run" without debugging.
+# There are two ways to run the backend without debugging:
+- Using the green "Run" button: Locate the green "Run" button (usually a play symbol) on the top toolbar and click it. This will build and run the backend application.
+- Using the context menu: Right-click on the project name in the Solution Explorer and select "Run" without debugging.
 Run the Application (Debugging):
 
-View the Backend Output:
+# View the Backend Output:
 
 After running the backend application, the Visual Studio console window will display application logs and any debugging information.
 You can also access the backend API in your web browser by navigating to the URL specified in the code configuration (https://localhost:7111).
 
-Start the frontend:
+# Start the frontend:
 Navigate back to the main project directory.
 Run ng serve to start the Angular development server. The default frontend development server usually runs at http://localhost:4200.
 
-Usage
+# Usage
 Open http://localhost:4200 in your web browser.
 You should see the todo list application interface.
 Existing todo items will be displayed in a list.
