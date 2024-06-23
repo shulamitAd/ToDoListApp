@@ -3,17 +3,19 @@
 Todo List App with ASP.NET Core 6 and Angular 16
 This project is a simple todo list application built using ASP.NET Core 6 on the backend and Angular 16 on the frontend. It allows users to create, view, edit, and delete todo items.
 
-Features
+# Features
 Create new todo items: Users can add new tasks to their todo list with a title ,description and planned date.
 View existing todo items: The application displays a list of all currently saved todo items.
 Edit existing todo items: Users can modify the details of existing tasks.
 Delete todo items: Users can remove unwanted tasks from their todo list.
 
-Prerequisites
-Node.js and npm (or yarn): Download and install Node.js (https://nodejs.org/en) which includes npm. Alternatively, you can use a package manager like yarn (https://classic.yarnpkg.com/lang/en/docs/install/).
-.NET 6 SDK: Download and install the .NET 6 SDK from the official Microsoft website (https://dotnet.microsoft.com/en-us/download).
+# Prerequisites
+-Node.js and npm (or yarn): 
+Download and install Node.js (https://nodejs.org/en) which includes npm. Alternatively, you can use a package manager like yarn (https://classic.yarnpkg.com/lang/en/docs/install/).
+-.NET 6 SDK: 
+Download and install the .NET 6 SDK from the official Microsoft website (https://dotnet.microsoft.com/en-us/download).
 
-Installation
+# Installation
 Clone this repository or download the source code.
 Open a terminal or command prompt and navigate to the project directory.
 Run npm install (or yarn install) to install the required dependencies for both the frontend and backend.
