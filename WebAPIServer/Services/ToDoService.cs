@@ -22,7 +22,6 @@ namespace WebAPIServer.Services
             _iToDoRepository = iToDoRepository;
             _validator = validator;
         }
-
         public async Task Add(TODOItem item)
         {
             var validationResult = _validator.Validate(item);
