@@ -21,12 +21,22 @@ Open a terminal or command prompt and navigate to the project directory.
 Run npm install (or yarn install) to install the required dependencies for both the frontend and backend.
 
 # Running the Application
-Start the backend:
-Running the Backend with Visual Studio
-
+Start the backend: 
+# Running the Backend with Visual Studio
 Open the Solution in Visual Studio:
-
 Double-click the WebAPIServer.sln file to open it in Visual Studio.
+# Update localdb connection string in appsettings.json file:
+- From the View menu, open SQL Server Object Explorer
+- Right click on the localDb and select properties
+- In the properties window find the connectionString property
+- Copy the value and replace the connectionString value in appsettings.json file with your value
+- Change the initial catalog value to “ToDoDb” instead of master
+ 
+ 
+
+# Create the database and tables:
+On “package manager console” run the command “Update-Database”
+
 
 Select the Startup Project:
 
